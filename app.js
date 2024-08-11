@@ -7,7 +7,7 @@ const app=express();
 const mongoose=require("mongoose");
 const Listing=require("./models/listing.js");
 const path=require("path");
-const MONGO_URL='mongodb://127.0.0.1:27017/wl';
+//const MONGO_URL='mongodb://127.0.0.1:27017/wl';
 const dbUrl=process.env.ATLASDB_URL;
 
 const methodOverride=require("method-override");
